@@ -9,6 +9,6 @@
   margin: auto;
   text-align: center;
   font-size: calc(25px + 0.75vw);
-	padding: 2vh 0px;
+  padding: 2vh 0px;
 }
 </style>

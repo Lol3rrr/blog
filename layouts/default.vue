@@ -1,6 +1,6 @@
 <template>
   <div>
-		<Nuxt style="width: 80vw; margin: auto;" />
+    <Nuxt style="width: 80vw; margin: auto" />
   </div>
 </template>
 

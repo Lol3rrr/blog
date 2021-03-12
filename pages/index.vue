@@ -2,7 +2,7 @@
   <div class="content">
     <blog-title>Posts</blog-title>
     <div class="post-list">
-      <div class="post-list-item" v-for="post in posts" :key="post.title">
+      <div v-for="post in posts" :key="post.title" class="post-list-item">
         <a class="item-content" :href="post.path">
           <h4>{{ post.title }}</h4>
           <p>{{ post.description }}</p>
@@ -22,27 +22,28 @@ export default Vue.extend({
     BlogTitle,
   },
 
-	head: {
-		title: "Posts",
-		meta: [
-			{
-				hid: "description",
-				name: "description",
-				content: "A simple overview of all my Blog-Posts"
-			}
-		]
-	},
-
   data() {
     return {
       posts: [
         {
           title: 'Tunneload - Part 0',
           path: '/tunneload_0',
-          description: "A Basic conceptual overview of my Load-Balancer 'Tunneload'",
+          description:
+            "A Basic conceptual overview of my Load-Balancer 'Tunneload'",
         },
       ],
     }
+  },
+
+  head: {
+    title: 'Posts',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'A simple overview of all my Blog-Posts',
+      },
+    ],
   },
 })
 </script>

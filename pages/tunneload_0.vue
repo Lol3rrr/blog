@@ -160,18 +160,15 @@
 import Vue from 'vue'
 import BlogTitle from '@/components/title.vue'
 import SubTitle from '@/components/subtitle.vue'
-import CodeBlock from '@/components/code.vue'
 import Highlighted from '@/components/highlight.vue'
 
 export default Vue.extend({
-  layout: 'blog',
-
   components: {
     BlogTitle,
     SubTitle,
-    CodeBlock,
     Highlighted,
   },
+  layout: 'blog',
 
   head: {
     title: 'Tunneload - Part 0',
