@@ -1,0 +1,7 @@
+.gitignore
+.git/
+.github/
+
+.nuxt/
+node_modules/
+test/

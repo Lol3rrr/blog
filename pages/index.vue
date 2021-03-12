@@ -27,7 +27,7 @@ export default Vue.extend({
       posts: [
         {
           title: 'Tunneload - Part 0',
-          path: '/tunneload_0',
+          path: '/tunneload_0/',
           description:
             "A Basic conceptual overview of my Load-Balancer 'Tunneload'",
         },
