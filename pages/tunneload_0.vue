@@ -152,6 +152,16 @@
           </li>
         </ul>
       </div>
+      <div>
+        <sub-title>Going Forward</sub-title>
+        <p>
+          Now that we know what we want, there is still the big question of
+          <highlighted
+            >"How will we actually go about implementing all that?"</highlighted
+          >. This will be answered in this small Series of Posts that cover the
+          development of Tunneload.
+        </p>
+      </div>
     </div>
   </div>
 </template>
